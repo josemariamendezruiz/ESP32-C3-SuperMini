@@ -16,13 +16,7 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 */
-#ifdef ESP32
-   // SI ES UNA ESP32 UTILIZAMOS ESTA LIBRERIA 
-   #include <WiFi.h>
-#else
-   // SI ES UNA ESP8266 UTILIZAMOS ESTA LIBRERIA 
-   #include <ESP8266WiFi.h>
-#endif
+#include <WiFi.h>
 
 void setup(){
   Serial.begin(9600);
