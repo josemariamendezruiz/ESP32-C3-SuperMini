@@ -20,10 +20,8 @@
 
 void setup(){
   Serial.begin(9600);
-  Serial.println();
-  Serial.print("MAC Address de nuestra microcontroladora: " + WiFi.macAddress());
 }
  
 void loop(){
-
+  Serial.println("MAC Address de nuestra microcontroladora: " + WiFi.macAddress());
 }
